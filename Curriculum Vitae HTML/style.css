@@ -1,0 +1,110 @@
+
+
+header{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(magenta,orange);
+    padding: 30px;
+    margin: -10px;
+    
+}
+body{
+    background-image: url(images/fondo4.jpg);
+    font-family:cursive;
+}
+
+footer{
+    margin-top: 110px;
+}
+
+.datos{
+    font-family:cursive;
+    text-align: center;
+    align-content: center;
+    color: white;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+
+.hover-container{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hover-message{
+    visibility: hidden;
+    opacity: 0;
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: opacity 0,3s ease,visibility 0.3s ease;
+    z-index: 1;
+}
+
+.hover-container:hover .hover-message{
+    visibility: visible;
+    opacity: 1;
+}
+
+.program{
+    margin-top: 18px;
+}
+
+.program h2{
+    text-align: center;
+}
+
+.program meter{
+    margin-left: 40px;
+}
+
+.program p{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+#carnet{
+    border: 1px solid white;
+    border-radius: 15%;
+    margin-right: 25px;
+    height: 200px;
+
+}
+
+#cv{
+    align-self: center;
+    margin-left: 25px;
+
+}
+
+#redes{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: end;
+}
+
+
+
+
+
+
+
+
+
+
+
